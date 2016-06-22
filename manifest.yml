@@ -1,0 +1,8 @@
+---
+applications:
+- name: env-properties-demo
+  path: demo-0.0.1-SNAPSHOT.jar
+
+  env:
+    # mandatory variables
+    SERVICES[ID]_METADATA_LONG_DESCRIPTION: a desc
